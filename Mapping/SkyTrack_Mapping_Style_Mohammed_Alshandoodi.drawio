@@ -1,0 +1,202 @@
+<mxfile host="Electron" agent="ChatGPT Codex">
+  <diagram id="skytrack-hospital-style" name="SkyTrack Mapping">
+    <mxGraphModel dx="1844" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=27;fontStyle=1;fontColor=#163A5F;" value="SKYTRACK AIRLINE SYSTEM - MAPPING" vertex="1">
+          <mxGeometry height="40" width="750" x="470" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="author" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#163A5F;" value="Mohammed Said Saif Alshandoodi" vertex="1">
+          <mxGeometry height="30" width="500" x="590" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="h_aircraft" parent="1" style="text;html=1;align=left;fontSize=17;fontStyle=1;fontColor=#163A5F;" value="AIRCRAFT" vertex="1">
+          <mxGeometry height="25" width="160" x="35" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="aircraft_pk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="&lt;b&gt;PK&lt;/b&gt;&lt;br&gt;&lt;u&gt;Registration_no&lt;/u&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="35" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="aircraft_model" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Model" vertex="1">
+          <mxGeometry height="70" width="95" x="165" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="aircraft_manu" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Manufacturer" vertex="1">
+          <mxGeometry height="70" width="120" x="260" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="aircraft_capacity" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Total_Seating_&lt;br&gt;Capacity" vertex="1">
+          <mxGeometry height="70" width="135" x="380" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="aircraft_year" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Year_of_&lt;br&gt;manufacture" vertex="1">
+          <mxGeometry height="70" width="125" x="515" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="h_airport" parent="1" style="text;html=1;align=left;fontSize=17;fontStyle=1;fontColor=#163A5F;" value="AIRPORT" vertex="1">
+          <mxGeometry height="25" width="150" x="685" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_pk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="&lt;b&gt;PK&lt;/b&gt;&lt;br&gt;&lt;u&gt;IATA_code&lt;/u&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="685" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_name" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Name" vertex="1">
+          <mxGeometry height="70" width="100" x="805" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_city" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="City" vertex="1">
+          <mxGeometry height="70" width="100" x="905" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="airport_country" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Country" vertex="1">
+          <mxGeometry height="70" width="110" x="1005" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="h_crew" parent="1" style="text;html=1;align=left;fontSize=17;fontStyle=1;fontColor=#163A5F;" value="CREW_MEMBER" vertex="1">
+          <mxGeometry height="25" width="190" x="1190" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="crew_pk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="&lt;b&gt;PK&lt;/b&gt;&lt;br&gt;&lt;u&gt;License_no&lt;/u&gt;" vertex="1">
+          <mxGeometry height="70" width="125" x="1190" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="crew_fullname" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Full_name" vertex="1">
+          <mxGeometry height="70" width="125" x="1315" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="crew_role" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Role" vertex="1">
+          <mxGeometry height="70" width="105" x="1440" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="h_flight" parent="1" style="text;html=1;align=left;fontSize=18;fontStyle=1;fontColor=#163A5F;" value="FLIGHT" vertex="1">
+          <mxGeometry height="25" width="150" x="250" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_pk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="&lt;b&gt;PK&lt;/b&gt;&lt;br&gt;&lt;u&gt;Flight_number&lt;/u&gt;" vertex="1">
+          <mxGeometry height="75" width="135" x="250" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_departure" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Departure_&lt;br&gt;datetime" vertex="1">
+          <mxGeometry height="75" width="135" x="385" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_arrival" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Arrival_&lt;br&gt;datetime" vertex="1">
+          <mxGeometry height="75" width="130" x="520" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="flight_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Status" vertex="1">
+          <mxGeometry height="75" width="95" x="650" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="h_flightcrew" parent="1" style="text;html=1;align=left;fontSize=17;fontStyle=1;fontColor=#163A5F;" value="FLIGHT_CREW" vertex="1">
+          <mxGeometry height="25" width="200" x="1225" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="h_passenger" parent="1" style="text;html=1;align=left;fontSize=17;fontStyle=1;fontColor=#163A5F;" value="PASSENGER" vertex="1">
+          <mxGeometry height="25" width="170" x="35" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_pk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="&lt;b&gt;PK&lt;/b&gt;&lt;br&gt;&lt;u&gt;National_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="75" width="125" x="35" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_full" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Full_name" vertex="1">
+          <mxGeometry height="75" width="110" x="160" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_email" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Email" vertex="1">
+          <mxGeometry height="75" width="100" x="270" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_phone" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Phone" vertex="1">
+          <mxGeometry height="75" width="100" x="370" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_nationality" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Nationality" vertex="1">
+          <mxGeometry height="75" width="115" x="470" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="passenger_dob" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Date_of_birth" vertex="1">
+          <mxGeometry height="75" width="125" x="585" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="h_booking" parent="1" style="text;html=1;align=left;fontSize=17;fontStyle=1;fontColor=#163A5F;" value="BOOKING" vertex="1">
+          <mxGeometry height="25" width="160" x="820" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="booking_pk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="&lt;b&gt;PK&lt;/b&gt;&lt;br&gt;&lt;u&gt;Seat_number&lt;/u&gt;" vertex="1">
+          <mxGeometry height="75" width="125" x="820" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="booking_class" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Class" vertex="1">
+          <mxGeometry height="75" width="90" x="945" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="booking_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Booking_date" vertex="1">
+          <mxGeometry height="75" width="120" x="1035" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="booking_price" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1F4E78;strokeWidth=2;fillColor=#FFFFFF;fontColor=#163A5F;fontSize=12;" value="Price_paid" vertex="1">
+          <mxGeometry height="75" width="110" x="1155" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="e_assigned" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C0504D;strokeWidth=2;fontColor=#A33A38;fontSize=13;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;" target="aircraft_pk" value="Assigned to (M:1)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800.06" y="445" />
+              <mxPoint x="800.06" y="389.94" />
+              <mxPoint x="100.06" y="389.94" />
+            </Array>
+            <mxPoint x="815" y="444.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_departs" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C0504D;strokeWidth=2;fontColor=#A33A38;fontSize=13;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;" target="airport_pk" value="Departs (M:1)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" as="offset" />
+            <Array as="points">
+              <mxPoint x="957.47" y="340.06" />
+              <mxPoint x="720.06" y="340.06" />
+            </Array>
+            <mxPoint x="957.4705882352941" y="444.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_arrives" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C0504D;strokeWidth=2;fontColor=#A33A38;fontSize=13;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;" target="airport_pk" value="Arrives (M:1)">
+          <mxGeometry relative="1" x="-0.0378" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1060.06" y="519.94" />
+              <mxPoint x="1060.06" y="259.94" />
+              <mxPoint x="745" y="259.94" />
+            </Array>
+            <mxPoint x="1102.4117647058824" y="519.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_fc_flight" edge="1" parent="1" source="-B2pUOWazK6SVU0Kvd1r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C0504D;strokeWidth=2;fontColor=#A33A38;fontSize=13;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="flight_pk" value="Has crew (M:N)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="622.5294117647059" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_fc_member" edge="1" parent="1" source="-B2pUOWazK6SVU0Kvd1r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C0504D;strokeWidth=2;fontColor=#A33A38;fontSize=13;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="crew_pk" value="Receives (M:N)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480.06" y="622.41" />
+              <mxPoint x="1520.06" y="622.41" />
+              <mxPoint x="1520.06" y="290.06" />
+              <mxPoint x="1252.41" y="290.06" />
+            </Array>
+            <mxPoint x="1535" y="622.5294117647059" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_booking_passenger" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C0504D;strokeWidth=2;fontColor=#A33A38;fontSize=13;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;" target="passenger_pk" value="Makes (M:1)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1327.53" y="950.05" />
+              <mxPoint x="97.53" y="950.05" />
+            </Array>
+            <mxPoint x="1327.4705882352941" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_booking_flight" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C0504D;strokeWidth=2;fontColor=#A33A38;fontSize=13;labelBackgroundColor=#FFFFFF;endArrow=block;endFill=1;" target="flight_pk" value="Has bookings (M:1)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440.06" y="795" />
+              <mxPoint x="1440.06" y="730.06" />
+              <mxPoint x="280.06" y="730.06" />
+            </Array>
+            <mxPoint x="1457.4705882352941" y="794.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-B2pUOWazK6SVU0Kvd1r-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;color: rgb(163, 58, 56);&quot;&gt;PK / FK&lt;/b&gt;&lt;br style=&quot;color: rgb(163, 58, 56);&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56);&quot;&gt;Flight_number&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1240" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-B2pUOWazK6SVU0Kvd1r-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;color: rgb(163, 58, 56);&quot;&gt;PK / FK&lt;/b&gt;&lt;br style=&quot;color: rgb(163, 58, 56);&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56);&quot;&gt;License_no&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1360" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-B2pUOWazK6SVU0Kvd1r-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;color: rgb(163, 58, 56);&quot;&gt;FK&lt;/b&gt;&lt;br style=&quot;color: rgb(163, 58, 56);&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56);&quot;&gt;Registration_no&lt;/span&gt;" vertex="1">
+          <mxGeometry height="75" width="120" x="745" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="-B2pUOWazK6SVU0Kvd1r-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;color: rgb(163, 58, 56); font-size: 11px;&quot;&gt;FK&lt;/b&gt;&lt;br style=&quot;color: rgb(163, 58, 56); font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56); font-size: 11px;&quot;&gt;Departure_IATA_&lt;/span&gt;&lt;br style=&quot;color: rgb(163, 58, 56); font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56); font-size: 11px;&quot;&gt;code&lt;/span&gt;" vertex="1">
+          <mxGeometry height="75" width="120" x="865" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="-B2pUOWazK6SVU0Kvd1r-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;&lt;b style=&quot;forced-color-adjust: none; color: rgb(163, 58, 56); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;FK&lt;/b&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(163, 58, 56); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Arrival_IATA_&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(163, 58, 56); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;code&lt;/span&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="75" width="120" x="985" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="-B2pUOWazK6SVU0Kvd1r-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;color: rgb(163, 58, 56);&quot;&gt;FK&lt;/b&gt;&lt;br style=&quot;color: rgb(163, 58, 56);&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56);&quot;&gt;National_id&lt;/span&gt;" vertex="1">
+          <mxGeometry height="75" width="120" x="1265" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="-B2pUOWazK6SVU0Kvd1r-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;color: rgb(163, 58, 56);&quot;&gt;FK&lt;/b&gt;&lt;br style=&quot;color: rgb(163, 58, 56);&quot;&gt;&lt;span style=&quot;color: rgb(163, 58, 56);&quot;&gt;Flight_number&lt;/span&gt;" vertex="1">
+          <mxGeometry height="75" width="120" x="1385" y="795" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
